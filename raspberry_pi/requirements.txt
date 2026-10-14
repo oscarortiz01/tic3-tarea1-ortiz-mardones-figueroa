@@ -1,0 +1,4 @@
+# Dependencias de Python para el Servidor GUI en Raspberry Pi
+PyQt5>=5.15.0
+pyqtgraph>=0.12.0
+numpy>=1.20.0
