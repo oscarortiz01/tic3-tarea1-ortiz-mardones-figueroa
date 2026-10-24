@@ -16,6 +16,7 @@ Este repositorio contiene todos nuestros entregables para la Tarea 1 de TIC3.
   * `sesion_20261014_152558_odr1600hz_range16g_sequential_TCP.csv`: **1600 Hz**, rango **±16g**, modo **Secuencial**, protocolo **TCP** (5000 muestras).
 * [wireshark/](/wireshark/): Capturas de tráfico de red registradas en la interfaz `wlan0` para comparar el comportamiento entre protocolos:
   * `wireshark_tcp.pcapng` (flujo con handshake SYN/ACK y confirmaciones) y `wireshark_udp.pcapng` (envío directo de datagramas sin conexión).
+* [Informe_Tarea1_TIC3.pdf](/Informe_Tarea1_TIC3.pdf): Informe técnico en PDF con la arquitectura del sistema, decisiones de diseño, problemas resueltos, análisis de resultados experimentales y comparativa Wireshark.
 * [prompts.md](/prompts.md): Registro cronológico y tabla de trazabilidad de los prompts utilizados con IA durante todo el desarrollo del proyecto (Chat 1: Prompts 1 al 51; Chat 2: Prompts 1 al 22).
 
 ## Instrucciones de Instalación y Ejecución
@@ -48,6 +49,12 @@ Conectar el ESP32 por USB a la estación de trabajo y ejecutar con el entorno de
 cd esp32_firmware
 idf.py build flash monitor
 ```
+
+## Video de Demostración
+
+En el siguiente enlace se encuentra el video demostrativo donde se enseña el funcionamiento del sistema de adquisición y telemetría en tiempo real (ESP32 + BMI270 y Raspberry Pi), las sesiones de prueba configurables desde la interfaz gráfica y el análisis comparativo de tráfico TCP y UDP en Wireshark.
+
+* Video de Demostración en YouTube https://youtu.be/Js4mm4IwlrA
 
 ### Integrantes:
 
